@@ -11,7 +11,7 @@ main() {
     OPTION_3="Load custom password"
     OPTION_4="Quit"
     CHARSET="A-Xa-x0-9"
-    lenght=25
+    lenght=20
     OPTIONS=("Generate and load new password" "Set password lenght" "Load custom password" "Quit")
     select opt in "${OPTIONS[@]}"; do
         case $opt in
